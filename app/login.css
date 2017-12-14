@@ -1,0 +1,107 @@
+@charset "UTF-8";
+body {
+	background: url("") no-repeat center center fixed;
+	background-size: cover;
+	font-size: 50%;
+	font-family: 'Cabin Sketch', cursive;
+	font-weight: 300;
+	margin: 0;
+	color: #666;
+}
+
+/* Typography */
+h1#title {
+	font-family: 'Cabin Sketch', cursive;
+	font-weight: 300;
+	font-size: 6.4vh;
+	color: white;
+	text-shadow: 0 0 10px rgba(0,0,0,0.8);
+	margin: 0 auto;
+	padding-top: 180px;
+	max-width: 300px;
+	text-align: center;
+	position: relative;
+	top: 0px;
+}
+
+
+.login-form-logo {
+   display: block;
+  margin:  auto;
+  margin-bottom: 30px;
+  width: 100px;
+  height: auto;
+  max-width: 100%;
+}
+
+#login-form
+{
+   color: #777;
+  border: 0px solid #afafaf;
+  width: 30%;
+  margin-left: 33%;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  padding-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px #777;
+  background: rgba(255, 255, 255, 0.6);
+  font-family: 'Handlee', cursive;
+}
+
+input
+{
+  color: #777;
+  font-weight: bold;
+  width: 70%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #afafaf;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.5);
+  outline: none;
+  font-family: 'Cabin Sketch', cursive;
+  font-size:1.6vh;
+}
+
+input[type="submit"]
+{
+  color: white;
+  width: 30%;
+  border: 0px solid transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+#login{
+	background:#afafaf;
+	font-size:2vh;
+
+}
+
+.login-forget {
+	color: #4f4f4f;
+	font-size: 2.2vh;
+	font-weight: 600;
+	font-family: 'Cabin Sketch', cursive;
+	float: center;
+	position: center;
+	text-decoration: #4f4f4f;
+	transition: color 0.3s linear;
+}
+
+.login-forget:hover{
+	color: #4f4f4f;
+}
+
+
+
+
+
+
+
+
+
+
+

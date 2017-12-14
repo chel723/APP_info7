@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign Up</title>
+<link rel="stylesheet" type="text/css" href="signup.css">
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Handlee" rel="stylesheet">
+</head>
+<body>
+
+<h1 id="title">Register</h1>
+<form action="signup.php" method="POST">
+
+<div id="signup-form">
+<img class="signup-form-logo" src="logo.png" alt="Logo">
+
+<input placeholder="Enter First Name" type="text" name="fname"/><font color=grey>*</font><br>
+<input placeholder="Enter Last Name" type="text" name="lname"/><font color=grey>*</font><br>
+<input placeholder="Enter Username" type="text" name="uname"/><font color=grey>*</font><br>
+<input placeholder="Enter Email" type="text" name="email1"/><font color=grey>*</font><br>
+<input placeholder="Confirm Email" type="text" name="email2"/><font color=grey>*</font><br>
+<input placeholder="Enter Password" type="password" name="pass1"/><font color=grey>*</font><br>
+<input placeholder="Confirm Password" type="password" name="pass2"/><font color=grey>*</font><br>
+<font id="font" color=grey>*required field</font><br><br>
+<input id="login" type="submit" value="register" name="submit"/>
+
+<p>
+<a class="user-login" href="login_page.html" title="User Login">log in?</a>
+</p>
+
+</div>
+
+</form>
+
+</body>
+</html>

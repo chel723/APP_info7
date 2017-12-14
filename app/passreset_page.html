@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="passreset.css">
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Handlee" rel="stylesheet">
+
+</head>
+
+<body>
+<h1 id="title">Reset your password</h1>
+
+<form action="passcomplete.php?code=$get_code" method="POST">
+
+<div id="resetpass">
+
+<img class="resetpass-logo" src="logo.png" alt="Logo">
+
+<input placeholder="Enter Username" type="text" name="uname" /><br>
+
+<input placeholder="Enter a new password" type="password" name="newpass1" /> <br>
+
+<input placeholder="Re-enter your password" type="password" name="newpass2" /> <br>
+
+<input id="reset" type="submit" value="Reset"/><br>
+
+</div>
+
+</form>
+
+</body>
+</html>

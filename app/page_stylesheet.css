@@ -1,0 +1,54 @@
+
+  body 
+  {position: center;
+   font-family: 'Cabin Sketch', cursive;}
+
+  #maindiv 
+ 	{padding-top:50px;height:1500px;color: ; background-color:#ffffff;}
+  #section2 
+    {padding-top:50px;height:200px;color: ; background-color:#ffffff;
+    font-family: 'Cabin Sketch', cursive;}
+  #section3 
+    {padding-top:50px;height:200px;color: ; background-color:#ffffff;
+    font-family: 'Cabin Sketch', cursive;}
+  #section4 
+    {padding-top:50px;height:200px;color: ; background-color:#ffffff;
+    font-family: 'Cabin Sketch', cursive;}
+  #section5 
+    {padding-top:50px;height:200px;color: ; background-color:#ffffff;
+    font-family: 'Cabin Sketch', cursive;}
+    
+  /* Header */
+  #header { background:#ffffff;}
+  #header-inner { margin:auto; text-align:center; padding:10px; width:922px;}
+  
+  .logo {
+  display: block;
+  margin:  auto;
+  margin-bottom: 30px;
+  width: 100px;
+  height: auto;
+  max-width: 100%;
+}
+
+#logo{
+	position:left;
+}
+
+  /* Footer */
+  #footer { background:#000000;}
+  #footer-inner { margin:auto; text-align:center; padding:10px; width:922px;}
+  #footer a {color:#ffffff;text-decoration:none;}
+  
+  #footer-inner2{margin: auto;text-align: center;padding:5px;width: auto;} 
+  #footer-inner3 li {display:inline;}
+  
+  
+  /* Nav */
+  
+  #navbar navbar-inverse{
+  	font-family:'Cabin Sketch', cursive;
+  	
+  }
+
+ 

@@ -1,0 +1,42 @@
+<?php
+session_start();
+
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="user_profile.css">
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Handlee" rel="stylesheet">
+<title>Create a Home</title>
+
+</head>
+<body>
+
+<h1 id="title">Create a Home</h1>
+<form action="user_profile.php" method="POST">
+
+<div id="homeaddress-form">
+<img class="logo" src="logo.png" alt="Logo">
+
+<input placeholder="Give a name to your home" name="hname" required><font color=grey>*</font><br>
+<input placeholder="Enter your home address" name="home" required><font color=grey>*</font><br>
+<input placeholder="Enter the city" name="city" required><font color=grey>*</font><br>
+<input placeholder="Enter the post code" name="post" required><font color=grey>*</font><br>
+
+<font id="font" color=grey>*required field</font><br><br>
+
+
+<input id="homeaddress" type="submit" value="Next" name="submit"/>
+
+<a id="homeaddress" href="main_page.php" class="button">Cancel</a>
+
+
+</div>
+
+</form>
+
+</body>
+</html>
